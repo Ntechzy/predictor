@@ -39,9 +39,9 @@ const RankPredictor = () => {
       }}
     >
       <div className="bg-white relative py-16 bg-opacity-80 md:mr-10 p-8 rounded-lg shadow-lg max-w-md w-full md:mr-20 mx-5">
-        <h1 className="text-3xl font-bold text-center text-blue-900 mb-6">Rank Predictor</h1>
+        <h1 className="text-3xl font-bold text-center  text-blue-900 md:-mt-9 mb-6">Rank Predictor</h1>
 
-        <label htmlFor="percentile" className="block text-lg font-medium text-blue-900">
+        <label htmlFor="percentile" className="block text-lg font-[400] text-blue-900">
           Enter your percentile:
         </label>
         <input
@@ -70,8 +70,8 @@ const RankPredictor = () => {
           </div>
         )}
 
-        <div className=" absolute bottom-1 mt-4 left-[34%] text-center  text-sm text-gray-600">
-          Powered by <a href='https://ntechzy.in/' target='_blank' className="font-semibold text-blue-700">Ntechzy pvt.ltd.</a>
+        <div className=" absolute md:bottom-1 bottom-3 left-[50%] pb-2 translate-x-[-50%] text-center  text-sm text-gray-600">
+          Powered by <a href='https://ntechzy.in/' target='_blank' className="font-semibold text-blue-700">Ntechzy</a>
         </div>
       </div>
     </div>
